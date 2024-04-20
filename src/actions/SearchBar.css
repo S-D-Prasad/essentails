@@ -1,0 +1,69 @@
+/* SearchBar.css */
+
+.search-bar-container {
+  margin-bottom: 20px;
+  background-color: #e80545;
+}
+
+
+.row-container {
+
+  padding:10px;
+  margin: 10px;
+}
+.custom-search-bar {
+  width: 400px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: width 0.3s, box-shadow 0.3s;
+  background-color: #f5f5f5;
+  padding: 15px;
+  /* Change background color */
+}
+
+.custom-search-bar input {
+  padding: 5px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  /* Change input background color */
+  color: #333;
+  /* Change input text color */
+}
+
+.custom-search-bar:hover {
+  width: 350px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.custom-search-bar:focus-within {
+  width: 400px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.custom-search-bar .ant-btn {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #ff7f00;
+  /* Change button background color */
+  border-color: #ff7f00;
+  /* Change button border color */
+}
+
+.custom-search-bar .ant-btn:hover {
+  background-color: #73d957 !important;
+  /* Change button hover background color */
+  border-color: #73d957 !important;
+  /* Change button hover border color */
+}
+
+.custom-search-bar input::placeholder {
+  color: #888;
+  opacity: 1;
+  transition: color 0.3s, opacity 0.3s;
+}
+
+.custom-search-bar input:focus::placeholder {
+  color: #555;
+  opacity: 1;
+}

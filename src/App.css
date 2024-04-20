@@ -1,11 +1,19 @@
 .App {
   text-align: center;
+
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+
+.btn1 {
+  font-weight: bold;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

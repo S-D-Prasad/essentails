@@ -1,0 +1,28 @@
+/* OrderNow.css */
+
+.order-now-btn {
+    right: 35%;
+    bottom: 10%;
+    height: auto;
+    position: absolute;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #000000;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    border: 5px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.order-now-btn:hover {
+    background-color: #73d957;
+    border: 5px solid black !important;
+    color: #000000 !important;
+    /* Button hover background color */
+}
